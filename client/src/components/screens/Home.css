@@ -1,0 +1,153 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	 -webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+}
+.container{
+    width:90vw;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 25px;
+    background-color: #327a80;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 5px 0 30px 0;
+    border-radius:10px
+  }
+  input{
+    padding:12px 15px;
+    border: none;
+    outline: none !important;
+    border-radius: 5px
+  }
+ 
+  button{
+    border:none;
+    outline:none !important;
+    color:#575757;
+    border-radius:15px;
+    padding: 10px 15px;
+    margin-left:5px;
+    cursor:pointer;
+    border-width: 1px 1px 4px 1px;
+    border-style: solid;
+    border-color:#a3a3a3;
+    background-color:#fff
+  }
+  
+  button:focus{
+    padding:9px 15px;
+    border-width: 1px 1px 2px 1px;
+  }
+  
+  .input-container{
+    display:flex;
+    align-items:flex-end;
+  }
+  
+  .list-item-container{
+    display: flex;
+    align-item:center;
+    justify-content: space-between;
+    width:50vw;
+    background-color:#42a0a8;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding:15px 20px
+  }
+  
+  .list-title{
+    font-size: 17px;
+  }
+  
+  .remove-button {
+    border:none;
+    outline: none !important;
+    color: #fff;
+    background-color: red;
+    padding: 3px 10px !important;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #d40000
+  }
+img {
+	  -webkit-user-drag: none;
+	  -moz-user-drag: none;
+	  -o-user-drag: none;
+	  user-drag: none;
+}
+img {
+	pointer-events: none;
+}
+.movie_card{
+	padding: 0 !important;
+	width: 22rem;
+	margin:14px; 
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie_card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 33rem;
+}
+.movie_info{
+	color: #5e5c5c;
+}
+
+.movie_info i{
+	font-size: 20px;
+}
+.card-title{
+	width: 80%;
+	height: 4rem;
+}
+.play_button{
+	background-color: #ff3d49;
+	   position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 111px;
+	font-size: 27px;
+	padding-left: 17px;
+	padding-top: 18px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.credits{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	border: 2px solid #8e24aa;
+	font-size: 18px;
+}
+.credits .card-body{
+	padding: 0;
+}
+.credits p{
+	padding-top: 15px;
+	padding-left: 18px;
+}
+.credits .card-body i{
+	color: #8e24aa;
+}
+.btn {
+	/* margin-top: 10px; */
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+select{
+	display: block;
+	margin-right: 15px;
+    margin-bottom: 5px;
+}
